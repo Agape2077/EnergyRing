@@ -20,6 +20,7 @@ import cn.vove7.energy_ring.util.Config
 import cn.vove7.smartkey.android.AndroidSettings
 import cn.vove7.smartkey.get
 import cn.vove7.energy_ring.service.ForegroundService
+import cn.vove7.smartkey.BuildConfig
 import kotlin.concurrent.thread
 
 /**

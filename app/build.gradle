@@ -21,25 +21,25 @@ android {
         versionName "2.5.4"
 
     }
-
-    signingConfigs {
-        release {
-            storeFile file(localProperties.getProperty('keyPath'))
-            keyAlias = localProperties.getProperty('keyAlias')
-            keyPassword localProperties.getProperty('keyPassword')
-            storePassword localProperties.getProperty('storePassword')
-        }
-    }
-    buildTypes {
-        debug {
-            signingConfig signingConfigs.release
-        }
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
-        }
-    }
+//
+//    signingConfigs {
+//        release {
+//            storeFile file(localProperties.getProperty('keyPath'))
+//            keyAlias = localProperties.getProperty('keyAlias')
+//            keyPassword localProperties.getProperty('keyPassword')
+//            storePassword localProperties.getProperty('storePassword')
+//        }
+//    }
+//    buildTypes {
+//        debug {
+//            signingConfig signingConfigs.release
+//        }
+//        release {
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+//        }
+//    }
 
 }
 
